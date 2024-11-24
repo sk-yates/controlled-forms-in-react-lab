@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-// -------------------------------- State/App logic ---------------------------------
+// -------------------------------- State/App logic (functions) ---------------------------------
 
 const Bookshelf = () => {
 
@@ -27,7 +27,7 @@ const Bookshelf = () => {
 
     console.log(books);
 
-    // -------------------------------- App Display ---------------------------------
+    // -------------------------------- Return/App Display ---------------------------------
 
     return (
         <div className="bookshelfDiv">
